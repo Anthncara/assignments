@@ -1,0 +1,13 @@
+deger = input("Enter a positive integer number :")
+if deger.isdigit() == False:
+    print("It is an invalid entry")   
+liste = list(number)
+total = 0
+if deger.isdigit() == True:
+    for i in liste:
+        number_2 = (int(i)) ** len(liste)
+        total += number_2
+    if int(deger) == total:
+        print(f'{total} is an Armstrong number')
+    else:
+        print(f'{deger} is not an Armstrong number')
