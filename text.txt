@@ -10,4 +10,4 @@ if deger.isdigit() == True:
     if int(deger) == total:
         print(f'{total} is an Armstrong number')
     else:
-        print(f'{deger} is not an Armstrong number')
+        print(f'{deger} : is not an Armstrong number')
